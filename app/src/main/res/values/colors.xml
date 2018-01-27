@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundLogin">#ffffff</color>
+    <color name="windowBackground">#f0ffff</color>
+    <color name="buttonColor">#FFE48282</color>
+    <color name="textColorInTextView">#000000</color>
+    <color name="colorPrimary">#FF4081</color>#FF4081
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#3F51B5</color>
+    <color name="backgroundForOtherActivities">#ffffff</color>
+    <color name="backgroundForHomePage">#ffffff</color>
+    <color name="textColorBlack">#000000</color>
+    <color name="headingsBackground">#FF4081</color>
+    <color name="hintTextColor">#3385ff</color>
+    <color name="blackTextColor">#000000</color>
+</resources>

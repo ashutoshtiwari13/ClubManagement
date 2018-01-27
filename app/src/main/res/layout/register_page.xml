@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundrepeat"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="13dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif"
+        android:text="REGISTER WITH ADMIN DETAILS"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/headingsBackground"
+        android:textSize="25sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/linearLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/enter_company_name"
+        android:textColor="@color/textColorInTextView"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_u_name"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/et_u_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintLeft_toRightOf="@+id/linearLayout5"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+
+    <TextView
+        android:id="@+id/linearLayout6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/enter_pan_number"
+        android:textColor="@color/textColorInTextView"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/radio_Q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="348dp"
+        android:layout_marginTop="28dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+
+        <RadioButton
+            android:id="@+id/cse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="CSE" />
+
+        <RadioButton
+            android:id="@+id/ise"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="ISE" />
+
+        <RadioButton
+            android:id="@+id/mech"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="MEC" />
+
+        <RadioButton
+            android:id="@+id/eee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1"
+            android:text="EEE" />
+
+        <RadioButton
+            android:id="@+id/ece"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+
+            android:layout_weight="1"
+
+            android:text="ECE" />
+
+        <RadioButton
+            android:id="@+id/chem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:text="CHE" />
+
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/constraintLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/enter_email"
+        android:textColor="@color/textColorInTextView"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_email"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:fontFamily="sans-serif"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintLeft_toRightOf="@+id/constraintLayout3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_Q1"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="237dp"
+        tools:layout_conversion_absoluteX="114dp"
+        tools:layout_conversion_absoluteY="157dp" />
+
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/enter_password"
+        android:textColor="@color/textColorInTextView"
+        android:textSize="15sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/et_password"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="HardcodedText"
+        tools:layout_conversion_absoluteHeight="18dp"
+        tools:layout_conversion_absoluteWidth="111dp"
+        tools:layout_conversion_absoluteX="16dp"
+        tools:layout_conversion_absoluteY="228dp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:inputType="textVisiblePassword"
+        android:textColor="@color/textColorBlack"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintLeft_toRightOf="@+id/password"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_email"
+        tools:layout_conversion_absoluteHeight="42dp"
+        tools:layout_conversion_absoluteWidth="60dp"
+        tools:layout_conversion_absoluteX="143dp"
+        tools:layout_conversion_absoluteY="215dp" />
+
+
+    <Button
+        android:id="@+id/register_but"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/buttonColor"
+        android:fontFamily="sans-serif"
+        android:text="@string/register"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways" />
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/list_club"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/windowBackground"
+                android:src="@drawable/bullet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif"
+                android:text="LIST OF AVAILABLE CLUBS"
+                android:textColor="@color/textColorBlack"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/list_club"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/list_club"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageButton
+                android:id="@+id/be_member"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/windowBackground"
+                android:src="@drawable/bullet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/list_club" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif"
+                android:text="BECOME A MEMBER OF A CLUB"
+                android:textColor="@color/textColorBlack"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/be_member"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/be_member"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageButton
+                android:id="@+id/search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/windowBackground"
+                android:src="@drawable/bullet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/be_member" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif"
+                android:text="SEARCH FOR A MEMBER"
+                android:textColor="@color/textColorBlack"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/search"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/search"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageButton
+                android:id="@+id/add_club"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/windowBackground"
+                android:src="@drawable/bullet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/search" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif"
+                android:text="ADD MORE CLUBS"
+                android:textColor="@color/textColorBlack"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/add_club"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/add_club"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageButton
+                android:id="@+id/add_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:background="@color/windowBackground"
+                android:src="@drawable/bullet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_club" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:fontFamily="sans-serif"
+                android:text="AVAILABLE EVENTS "
+                android:textColor="@color/textColorBlack"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/add_event"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/add_event"
+                app:layout_constraintRight_toRightOf="parent" />
+
+            <ImageButton
+                android:id="@+id/support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="0.20"
+                android:background="@color/windowBackground"
+                android:src="@drawable/bullet"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/add_event" />
+
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="0.20"
+                android:fontFamily="sans-serif"
+                android:text="CONTACT/SUPPORT"
+                android:textColor="@color/textColorBlack"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="@+id/support"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/support"
+                app:layout_constraintRight_toRightOf="parent" />
+
+
+           <!-- <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/magic_button_bmsce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="73dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                app:button_icon="@drawable/logo"
+                app:button_icon_height="25dp"
+                app:button_icon_width="25dp"
+                app:expandable_area_color="#200cb7"
+                app:hide_text="BmsceWebsite"
+                app:icon_button_color="#d0d4e2"
+                app:layout_constraintBottom_toBottomOf="@+id/support"
+                app:layout_constraintRight_toRightOf="parent"
+                app:magic_button_size="50dp" />-->
+
+
+            <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/magic_button_bmsce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="-24dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="49dp"
+                app:button_icon="@drawable/logo"
+                app:button_icon_height="25dp"
+                app:button_icon_width="25dp"
+                app:expandable_area_color="#200cb7"
+                app:hide_text="BmsceWebsite"
+                app:icon_button_color="#d0d4e2"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/support"
+                app:magic_button_size="50dp" />
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+          <!--  <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/magic_button_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="73dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                app:button_icon="@drawable/logo"
+                app:button_icon_height="25dp"
+                app:button_icon_width="25dp"
+                app:expandable_area_color="#200cb7"
+                app:hide_text="BmsceWebsite"
+                app:icon_button_color="#d0d4e2"
+
+                app:layout_constraintRight_toRightOf="parent"
+                app:magic_button_size="50dp" />
+
+            <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/magic_button_bmsce"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="73dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                app:button_icon="@drawable/logo"
+                app:button_icon_height="25dp"
+                app:button_icon_width="25dp"
+                app:expandable_area_color="#200cb7"
+                app:hide_text="BmsceWebsite"
+                app:icon_button_color="#d0d4e2"
+                app:layout_constraintBottom_toBottomOf="@+id/magic_button_facebook"
+                app:layout_constraintRight_toRightOf="parent"
+                app:magic_button_size="50dp" />  -->
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
+
+
+
+
+

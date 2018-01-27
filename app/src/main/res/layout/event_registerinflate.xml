@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundrepeat">
+
+    <TextView
+        android:id="@+id/Tv_gen_bill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="32dp"
+        android:text="Contact Detail "
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/textColorInTextView"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/Tv_gen_bill"
+        android:layout_alignStart="@+id/Tv_gen_bill">
+
+        <EditText
+            android:id="@+id/editContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/Tv_gen_bill"
+            android:layout_below="@+id/Tv_gen_bill"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="35dp"
+            android:hint="Enter Contact"
+            android:inputType="phone"
+            android:textColor="@color/blackTextColor"
+            android:textColorHint="@color/hintTextColor" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnregisterEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginTop="23dp"
+        android:background="@color/buttonColor"
+        android:text="REGISTER"
+        android:textColor="@color/backgroundLogin"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idItem1"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Become Member"/>
+        <item
+            android:id="@+id/idItem2"
+            android:icon="@drawable/ic_add_circle_outline_black_24dp"
+            android:title="Add an Event"/>
+        <item
+            android:id="@+id/idItem3"
+            android:icon="@drawable/ic_wc_black_24dp"
+            android:title="Add Club"/>
+
+    </group>
+    <item android:title="Users">
+        <menu>
+            <item
+                android:id="@+id/idItem4"
+                android:icon="@drawable/ic_featured_play_list_black_24dp"
+                android:title="List CLubs"/>
+
+            <item
+                android:id="@+id/idItem5"
+                android:icon="@drawable/ic_search_black_24dp"
+                android:title="Search for a member"/>
+        </menu>
+    </item>
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/idItem6"
+                android:icon="@drawable/ic_security_black_24dp"
+                android:title="Support"/>
+            <item
+                android:id="@+id/idItem7"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Go to website"/>
+            <item
+                android:id="@+id/idItem8"
+                android:icon="@drawable/ic_reply_black_24dp"
+                android:title="Sign  out"/>
+        </menu>
+    </item>
+
+</menu>

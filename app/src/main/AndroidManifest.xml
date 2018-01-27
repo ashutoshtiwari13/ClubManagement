@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ruuha.bmscms">
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".Event"
+        android:allowBackup="true"
+        android:icon="@drawable/club"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:exported="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".Splashscreen" android:theme="@style/splashTheme" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".OTPRegister">
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".StudentDetailsInput">
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentList"
+            android:screenOrientation="portrait"
+            android:label="Student Details"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginPage">
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ClubList"
+            android:label="Club list">
+            <intent-filter>
+            <action android:name="android.intent.action.M" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".ListClubs">
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomePage"   android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/AppThemeTWo" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterPageCopy" >
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".AboutDev" >
+            <intent-filter>
+                <action android:name="android.intent.action.M" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EventHandler">
+            <intent-filter>
+                <action android:name="android.intent.action.O" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EventCrud"></activity>/
+        <activity android:name=".MainActivity"></activity>
+
+
+        <meta-data android:name="Rush_db_version" android:value="3" />
+        <meta-data android:name="Rush_db_name" android:value="EventDB.db" />
+        <meta-data android:name="Rush_debug" android:value="false" />
+        <meta-data android:name="Rush_requires_table_annotation" android:value="false" />
+        <meta-data android:name="Rush_log" android:value="false" />
+    </application>
+
+</manifest>

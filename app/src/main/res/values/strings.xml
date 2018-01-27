@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">BMSCMS</string>
+    <string name="bill_book_online">BMSCE CLUB MANAGMENT SYSTEM</string>
+    <string name="welcome">WELCOME  </string>
+    <string name="enter_company_name">Enter Username :</string>
+    <string name="enter_pan_number">Enter Branch :</string>
+    <string name="enter_email">Enter Email :</string>
+    <string name="enter_password">Enter Password :</string>
+    <string name="enter_phone_number">Enter Phone Number :</string>
+    <string name="register">Register</string>
+    <string name="search_hint">Search Student</string>
+    <string name="username">ADMIN USERNAME</string>
+    <string name="password">ADMIN PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="add_club">ADD A CLUB</string>
+    <string name="list_club">List of clubs</string>
+    <string name="add_club1">ADD CLUB</string>
+    <string name="enter_event_name">Name of Event</string>
+    <string name="enter_club_name">Enter Club Name</string>
+    <string name="enter_club_manager">Enter Club manager</string>
+    <string name="enter_contactManger">Enter Manager Contact</string>
+    <string name="email_of_student">Enter Student Email</string>
+    <string name="enter_student_contact">Enter Student Contact no.</string>
+    <string name="select_club">Select Club </string>
+    <string name="past_experience">Any past Experience </string>
+    <string name="preview">Preview</string>
+    <string name="become_member">Become A member</string>
+    <item name="visible" type="id"/>
+    <string name="enter_name">Enter Your name</string>
+    <string name="register_event">Register For An event</string>
+    <item name="masked" type="id"/>
+    <string name="generate_list">LIST OF REGISTERED STUDENTS</string>
+    <string name="heading">ENTER STUDENT DETAILS</string>
+    <string name="navigation_drawer_open">OPEN</string>
+    <string name="navigation_drawer_close">CLOSE</string>
+    <string name="spinner_title">SELECT CLUB</string>
+
+
+    <string name="hint_usn">USN</string>
+    <string name="Club_name">CLUB ENROLLED</string>
+    <string name="hint_email">EMAIL ID</string>
+    <string name="hint_branch">BRANCH</string>
+    <string name="hint_contact">CONTACT NO.</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="show_list_students">List of Registered Students</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="be_mem">BECOME A MEMBER</string>
+    <string name="facebook_application_id" translatable="false">313114112485832</string>
+    <string name="hint_name">NAME</string>
+<string name="text_ashutosh">Contact Developer </string>
+
+
+</resources>
