@@ -3,7 +3,7 @@
 
 ## ClubManagement ##
 ### Description ###
-An Android Application which can used to manage the registrations/deletions of candidates of a College.
+An Android Application which can used to manage the registrations of candidates for a College Club.
 It can used by the Club Managers/Heads to keep record of the candidates, make registration for new clubs , delete existing clubs and inform candidates of the events organised.
 
 Students can register for particular events and gets text messages upon successfull Registrations.
