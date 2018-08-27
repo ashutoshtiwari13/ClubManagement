@@ -10,7 +10,7 @@ Students can register for particular events and gets text messages upon successf
 It accompanies interactive UI and two-way authentication has been used(OTP based).
 
 ## Installation ##
-The android app is NOT released on play Store for now. You can clone the repository and run the code using Android Studio.
+The android app is not released on play Store for now. You can clone the repository and run the code using Android Studio.
 
 ## Basic UI ##
 ![alt text](https://github.com/ashutoshtiwari13/ClubManagement/blob/master/SS1.jpg)
